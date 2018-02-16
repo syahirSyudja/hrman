@@ -1,0 +1,143 @@
+/* All Page Background  */
+
+body {
+    background-image: url('/img/bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: salmon;
+}
+
+
+/* Line for index */
+
+hr.topTitle {
+    height: 10px !important;
+    border: 0 !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    box-shadow: 0 10px 10px -10px #f0f0f0 inset !important;
+    margin-top: -25px !important;
+}
+
+
+/* Elements Position adjustable */
+
+.clearLeft {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+.clearRight {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
+.clearBothRL {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
+.bottomPd {
+    padding-bottom: 0 !important;
+}
+
+.topPd {
+    padding-top: 0 !important;
+    padding-bottom: 9px !important;
+}
+
+.topMg {
+    margin-top: 24px !important;
+}
+
+.numWidth {
+    width: 50px !important;
+}
+
+.actWidth {
+    width: 180px !important;
+}
+
+.idMenu2 {
+    width: 160px !important;
+}
+
+.tableWrtr {
+    width: 500px !important;
+}
+
+
+/* Box Element adjustable */
+
+.clearBG {
+    background-color: transparent !important;
+}
+
+.overFlow {
+    overflow: auto !important;
+}
+
+.bgShadow {
+    background-color: rgba(233, 233, 233, 0.7) !important;
+    border-radius: 5px;
+    padding-top: 10px !important;
+    margin-bottom: 20px !important;
+}
+
+
+/* Table style @manage keributan */
+
+.tbl-manage {
+    margin-top: 10px !important;
+}
+
+.tbl-manage thead{
+    font-weight: bold !important;
+    font-size: 18px !important;
+    background-color: darkgrey !important;
+}
+
+.tbl-manage tr td {
+    font-size: 16px !important;
+}
+
+
+/* Nav - top navigation box hover */
+
+nav ul li a:hover {
+    background-color: lightcoral !important;
+    border-radius: 5px !important;
+    color: beige !important;
+    /* font-weight: bold !important; */
+}
+
+
+/* Text Style and Styles for news! */
+
+.writter {
+    font: 12px/10px Arial;
+}
+
+.cnews {
+    font: 18px/22px Arial;
+}
+
+
+/* 
+.cnews small {
+    font: 9px/12px Arial;
+} */
+
+.well-hov:hover {
+    border: 1px solid lightcoral;
+}
